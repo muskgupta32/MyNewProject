@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "targets": [
+      "my_new_project_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "appsail": [
+    {
+      "source": "C:\\Users\\Muskaan Gupta\\MyReactProject\\MyNewProject\\appsail-nodejs",
+      "name": "AppSail"
+    }
+  ]
+}

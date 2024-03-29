@@ -1,0 +1,9 @@
+{
+	"name": "my_new_project_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "muskaan@truact.in",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}
