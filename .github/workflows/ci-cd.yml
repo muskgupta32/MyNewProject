@@ -29,3 +29,6 @@ jobs:
 
       - name: Print Node.js version
         run: node --version
+
+      - name: Clear Node.js cache
+        run: npm cache clean --force
