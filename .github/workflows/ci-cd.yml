@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Print Environment Variables
+        run: |
+            echo "Node.js version: $(node --version)"
+            echo "PATH: $PATH"
+            # Add any other relevant environment variables here
       - name: Clear Node.js cache
         run: npm cache clean --force
 
