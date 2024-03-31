@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Clear Node.js cache
+        run: npm cache clean --force
+
       - name: Checkout repository
         uses: actions/checkout@v4  # Update to v3
 
@@ -30,5 +33,3 @@ jobs:
       - name: Print Node.js version
         run: node --version
 
-      - name: Clear Node.js cache
-        run: npm cache clean --force
