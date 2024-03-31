@@ -26,3 +26,6 @@ jobs:
 
       - name: Deploy to Zoho Catalyst
         run: catalyst deploy
+
+      - name: Print Node.js version
+        run: node --version
