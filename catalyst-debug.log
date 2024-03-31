@@ -241,3 +241,62 @@ Response Headers: {"server":"ZGS","date":"Sun, 31 Mar 2024 05:42:35 GMT","conten
 [debug] [2024-03-31T05:42:36.195Z] : <<<< HTTP RESPONSE : 200
 Response Headers: {"server":"ZGS","date":"Sun, 31 Mar 2024 05:42:36 GMT","content-length":"0","connection":"keep-alive","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=3003d345-8b78-4161-b223-f3e62b13dc5e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3003d345-8b78-4161-b223-f3e62b13dc5e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
 
+[debug] [2024-03-31T05:46:50.958Z] : 
+[debug] [2024-03-31T05:46:50.962Z] : ----------------------------------------------------------------------
+[debug] [2024-03-31T05:46:50.962Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Muskaan Gupta\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-03-31T05:46:50.962Z] : CLI Version:  1.17.4
+[debug] [2024-03-31T05:46:50.963Z] : Platform:     win32
+[debug] [2024-03-31T05:46:50.963Z] : Node Version: v20.12.0
+[debug] [2024-03-31T05:46:50.964Z] : Time:         Sun Mar 31 2024 11:16:50 GMT+0530 (India Standard Time)
+[debug] [2024-03-31T05:46:50.964Z] : ----------------------------------------------------------------------
+[debug] [2024-03-31T05:46:50.964Z] : 
+[debug] [2024-03-31T05:46:52.206Z] : > authorizing via signed-in user option
+[debug] [2024-03-31T05:46:52.207Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-03-31T05:46:52.229Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/21489000000023001 
+
+[debug] [2024-03-31T05:46:53.618Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 31 Mar 2024 05:46:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=d9972d02-8f19-4aff-8648-d4265c5da6b1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d9972d02-8f19-4aff-8648-d4265c5da6b1;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-31T05:46:53.623Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/21489000000023001/environment 
+
+[debug] [2024-03-31T05:46:53.935Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 31 Mar 2024 05:46:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=f9ccad34-268c-4832-9d73-96314d694af4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f9ccad34-268c-4832-9d73-96314d694af4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-31T05:46:53.949Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/21489000000023001/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-03-31T05:46:54.957Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 31 Mar 2024 05:46:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=ca9e7e91-f597-4cd6-9c55-77709067cbb5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ca9e7e91-f597-4cd6-9c55-77709067cbb5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-31T05:46:54.961Z] : unknown eol undefined hence skipping check
+[debug] [2024-03-31T05:46:55.227Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/21489000000023001/server/upsert 
+
+[debug] [2024-03-31T05:46:57.402Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 31 Mar 2024 05:46:56 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=4fc8e30d-a120-46e7-9eff-351ea20b3090;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4fc8e30d-a120-46e7-9eff-351ea20b3090;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-31T05:46:57.417Z] : 
+[info] [2024-03-31T05:46:57.417Z] : Executing predeploy script in C:\Users\Muskaan Gupta\MyReactProject\MyNewProject\appsail-nodejs
+[debug] [2024-03-31T05:46:57.417Z] : Executing command > npm install
+[info] [2024-03-31T05:46:57.418Z] : > npm install
+[debug] [2024-03-31T05:47:01.065Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/21489000000023001/appsail/upsert 
+
+[debug] [2024-03-31T05:47:05.140Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 31 Mar 2024 05:47:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=7f2e2e66-76fb-44d4-87c8-06cae918a58c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7f2e2e66-76fb-44d4-87c8-06cae918a58c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-31T05:47:05.144Z] : 
+[info] [2024-03-31T05:47:05.145Z] : i functions(my_new_project_function): URL => https://mynewproject-841554034.development.catalystserverless.com/server/my_new_project_function/
+[info] [2024-03-31T05:47:05.146Z] : √ functions(my_new_project_function): deploy successful
+[info] [2024-03-31T05:47:05.146Z] : 
+[info] [2024-03-31T05:47:05.147Z] : i AppSail(AppSail): URL => https://appsail-10076816107.development.catalystappsail.com
+[info] [2024-03-31T05:47:05.148Z] : √ AppSail(AppSail): deploy successful
+[info] [2024-03-31T05:47:05.148Z] : 
+[info] [2024-03-31T05:47:05.148Z] : √ Catalyst deploy complete!
+[debug] [2024-03-31T05:47:05.149Z] : NO ERRORS REGISTERED
+[debug] [2024-03-31T05:47:05.149Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-03-31T05:47:05.149Z] : TOTAL DURATION OF COMMAND EXEC : 12966
+[debug] [2024-03-31T05:47:05.159Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-03-31T05:47:05.496Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 31 Mar 2024 05:47:05 GMT","content-length":"0","connection":"keep-alive","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=440eb48c-5fe9-4fb8-a9c9-d85d821473c6;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=440eb48c-5fe9-4fb8-a9c9-d85d821473c6;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
