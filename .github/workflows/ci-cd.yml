@@ -31,7 +31,7 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run build
+        run: react-native run-android
 
       - name: Deploy to Zoho Catalyst
         run: catalyst deploy
