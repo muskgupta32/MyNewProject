@@ -12,17 +12,18 @@ jobs:
     steps:
       - name: Print Environment Variables
         run: |
-            echo "Node.js version: $(node --version)"
-            echo "PATH: $PATH"
-            # Add any other relevant environment variables here
+          echo "Node.js version: $(node --version)"
+          echo "PATH: $PATH"
+          # Add any other relevant environment variables here
+
       - name: Clear Node.js cache
         run: npm cache clean --force
 
       - name: Checkout repository
-        uses: actions/checkout@v4  # Updated to v3
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
           node-version: '20'
 
